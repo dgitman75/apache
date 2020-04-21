@@ -3,7 +3,7 @@ class apache::service (
         ) {
         service { 'webserver-service':
                 name => $servicename,
-                ensure => runnong,
+                ensure => running,
                 enable = > true,
                 hasrestart => true,
         }
